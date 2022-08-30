@@ -132,7 +132,7 @@ if button:
 
     wb.save(filepath_2)
     wb.close()
-    st.download_button("Download", data=filepath_2, mime='xlsx', file_name=f'zikangai_{year}_{month}.xlsx')
+    st.download_button("Download", data=filepath_2, mime='xlsx', file_name=f'労働時間申請書_{year}_{month}.xlsx')
 
 #     output = BytesIO()
 #     workbook = xlsxwriter.Workbook(output, {'in_memory': True})
